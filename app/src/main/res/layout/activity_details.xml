@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/detail_img_book"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/detail_book_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="NIRMALA"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detail_author_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:text="Munshi Premchand"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/book_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:justificationMode="inter_word"
+            android:layout_margin="12dp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
